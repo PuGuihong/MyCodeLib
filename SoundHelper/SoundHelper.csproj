@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C47BF7D-64A8-43A7-817D-286A64D3E2C4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoundHelper</RootNamespace>
+    <AssemblyName>SoundHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="wavLib\0.wav" />
+    <Content Include="wavLib\0号.wav" />
+    <Content Include="wavLib\1.wav" />
+    <Content Include="wavLib\10.wav" />
+    <Content Include="wavLib\100.wav" />
+    <Content Include="wavLib\100号.wav" />
+    <Content Include="wavLib\10号.wav" />
+    <Content Include="wavLib\11.wav" />
+    <Content Include="wavLib\11号.wav" />
+    <Content Include="wavLib\12.wav" />
+    <Content Include="wavLib\12号.wav" />
+    <Content Include="wavLib\13.wav" />
+    <Content Include="wavLib\13号.wav" />
+    <Content Include="wavLib\14.wav" />
+    <Content Include="wavLib\14号.wav" />
+    <Content Include="wavLib\15.wav" />
+    <Content Include="wavLib\15号.wav" />
+    <Content Include="wavLib\16.wav" />
+    <Content Include="wavLib\16号.wav" />
+    <Content Include="wavLib\17.wav" />
+    <Content Include="wavLib\17号.wav" />
+    <Content Include="wavLib\18.wav" />
+    <Content Include="wavLib\18号.wav" />
+    <Content Include="wavLib\19.wav" />
+    <Content Include="wavLib\19号.wav" />
+    <Content Include="wavLib\1_.wav" />
+    <Content Include="wavLib\1_号.wav" />
+    <Content Include="wavLib\1号.wav" />
+    <Content Include="wavLib\2.wav" />
+    <Content Include="wavLib\20.wav" />
+    <Content Include="wavLib\20号.wav" />
+    <Content Include="wavLib\2号.wav" />
+    <Content Include="wavLib\3.wav" />
+    <Content Include="wavLib\30.wav" />
+    <Content Include="wavLib\30号.wav" />
+    <Content Include="wavLib\3号.wav" />
+    <Content Include="wavLib\4.wav" />
+    <Content Include="wavLib\40.wav" />
+    <Content Include="wavLib\40号.wav" />
+    <Content Include="wavLib\4号.wav" />
+    <Content Include="wavLib\5.wav" />
+    <Content Include="wavLib\50.wav" />
+    <Content Include="wavLib\50号.wav" />
+    <Content Include="wavLib\5号.wav" />
+    <Content Include="wavLib\6.wav" />
+    <Content Include="wavLib\60.wav" />
+    <Content Include="wavLib\60号.wav" />
+    <Content Include="wavLib\6号.wav" />
+    <Content Include="wavLib\7.wav" />
+    <Content Include="wavLib\70.wav" />
+    <Content Include="wavLib\70号.wav" />
+    <Content Include="wavLib\7号.wav" />
+    <Content Include="wavLib\8.wav" />
+    <Content Include="wavLib\80.wav" />
+    <Content Include="wavLib\80号.wav" />
+    <Content Include="wavLib\8号.wav" />
+    <Content Include="wavLib\9.wav" />
+    <Content Include="wavLib\90.wav" />
+    <Content Include="wavLib\90号.wav" />
+    <Content Include="wavLib\9号.wav" />
+    <Content Include="wavLib\A.wav" />
+    <Content Include="wavLib\B.wav" />
+    <Content Include="wavLib\C.wav" />
+    <Content Include="wavLib\D.wav" />
+    <Content Include="wavLib\DingDong_1.wav" />
+    <Content Include="wavLib\E.wav" />
+    <Content Include="wavLib\F.wav" />
+    <Content Include="wavLib\G.wav" />
+    <Content Include="wavLib\到.wav" />
+    <Content Include="wavLib\千.wav" />
+    <Content Include="wavLib\号到.wav" />
+    <Content Include="wavLib\号柜台.wav" />
+    <Content Include="wavLib\号柜台办理.wav" />
+    <Content Include="wavLib\号柜台办理业务.wav" />
+    <Content Include="wavLib\号窗口.wav" />
+    <Content Include="wavLib\号窗口办理.wav" />
+    <Content Include="wavLib\号窗口办理业务.wav" />
+    <Content Include="wavLib\号诊室.wav" />
+    <Content Include="wavLib\号诊室就诊.wav" />
+    <Content Include="wavLib\号顾客.wav" />
+    <Content Include="wavLib\号顾客到.wav" />
+    <Content Include="wavLib\号顾客您好.wav" />
+    <Content Include="wavLib\幻想空间默认值.WAV" />
+    <Content Include="wavLib\您好.wav" />
+    <Content Include="wavLib\普内科.wav" />
+    <Content Include="wavLib\普外科.wav" />
+    <Content Include="wavLib\泌尿科.wav" />
+    <Content Include="wavLib\理财经业务.wav" />
+    <Content Include="wavLib\理财金.wav" />
+    <Content Include="wavLib\理财金业务.wav" />
+    <Content Include="wavLib\缴费业务.wav" />
+    <Content Include="wavLib\老年科.wav" />
+    <Content Include="wavLib\请.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
